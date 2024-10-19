@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL" rel="stylesheet">
+        <link rel="stylesheet" href="./scorestyle.css">
+    </head>
+    <body>
+        
+        <div class="scoreboard">
+            <a href="../index.html"><button type="button" id= "home-btn" >Home</button></a>
+           
+            <div class="team">
+                <h3>HOME</h3>
+                <div class="score">
+                    <p id="home-count">0</p>
+                </div>
+                
+            <div class="btn-container">
+                <button id="increment-btn" onclick="add1()"> +1</button>
+                <button id="increment-btn" onclick="add2()"> +2</button>
+                <button id="increment-btn" onclick="add3()"> +3</button>
+            </div>
+            </div>
+
+            <div class="team">
+                <h3>GUEST</h3>
+                <div class="score">
+                    <p id="guest-count">0</p>
+                </div>
+                <div class="btn-container">
+                    <button id="increment-btn" onclick="oneadded()"> +1</button>
+                    <button id="increment-btn" onclick="twoadded()"> +2</button>
+                    <button id="increment-btn" onclick="threeadded()"> +3</button>
+                </div>
+            </div>
+            
+        </div>
+        <script src="scoreBoard.js"></script>
+    </body>
+</html>

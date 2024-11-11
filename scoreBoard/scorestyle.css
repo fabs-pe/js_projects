@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-image: url(basketballcourt.png);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-btn{
+    background:transparent;
+    border-style: solid;
+    border-radius: 2;
+    border-color: black;
+}
+
+#home-btn:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+    border-style: none;
+}
+
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 2rem
+}
+
+
+.scoreboard {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(15px);
+    border-radius: 15px 50px 30px;
+    width:50%;
+    margin: auto;
+    padding: 30px;
+    position: absolute;
+    top: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.team{
+    margin: auto;
+}
+
+.score{
+    background: black;
+    color: red;
+    font-family: "Cursed Timer UliL";
+    font-size: 3rem;
+    text-align: center;
+    height: 80px;
+    width: 100px;
+    top: 10%;
+}
+
+.btn-container{
+    padding-top: 1rem;
+    text-align: center;
+
+}
+#increment-btn{
+    background: transparent;
+    border-color: white
+}
+
+#increment-btn:hover{
+    font-size: 1rem
+}
+
+
+
+
+
